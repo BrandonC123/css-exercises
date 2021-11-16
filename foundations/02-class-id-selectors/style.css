@@ -2,6 +2,18 @@
     background-color: #FF3399;
     font-family: Verdana, sans-serif;
 }
+#second {
+    color: #0000CC;
+    font-size: 36px;
+}
+.third {
+    font-size: 24px;
+}
+#fourth {
+    background-color: #00CC00;
+    font-size: 24px;
+    font-weight: 700;
+}
 
 
 
