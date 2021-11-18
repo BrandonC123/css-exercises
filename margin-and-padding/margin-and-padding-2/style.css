@@ -11,28 +11,19 @@ body {
 
 .title {
   background: #e3f4ff;
-  padding: 8px;
-  font-size: 16px;
-  border: 8px solid #fff;
 }
 
 .content {
   background: #e3f4ff;
-  border: 8px solid #fff;
 }
 
 .button-container {
   background: #e3f4ff;
-  text-align: center;
-  border: 8px solid #fff;
 }
 
 button {
-  display: block;
   background: white;
-  padding: 8px, 24px;
   border: 1px solid #eee;
-  margin: auto;
 }
 /*
 - There is 8px between the edge of the card and its content 
