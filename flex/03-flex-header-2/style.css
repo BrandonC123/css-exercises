@@ -39,6 +39,20 @@ body {
   font-style: italic;
 }
 
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rebeccapurple;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  gap: 16px;
+}
+
 button {
   border: none;
   border-radius: 8px;
@@ -47,32 +61,11 @@ button {
   padding: 8px 24px;
 }
 
-a {
-  /* this removes the line under our links */
-  text-decoration: none;
-  color: rebeccapurple;
-}
-
-.left-container {
+.left-container, .right-container {
   display: flex;
   gap: 16px;
+  align-items: center;
 }
-.left-container .links {
-  display: flex;
-  gap: 16px;
-}
-
-.right-container {
-  display: flex;
-  gap: 16px;
-}
-
-ul {
-  display: flex;
-  list-style-type: none;
-  padding: 0px;
-}
-
 /*
 - Everything is centered vertically inside the header.
 - There is 8px space between everything and the edge of the header.
