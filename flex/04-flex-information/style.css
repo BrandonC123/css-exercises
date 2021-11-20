@@ -26,6 +26,24 @@ img {
   background: #eee;
 }
 
+.content-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  padding-top: 32px;
+}
+
+
+.barberry-container, .chili-container, .pepper-container, .saffron-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.text {
+  text-align: center;
+}
 /*
 - All items are centered on the page (horizontally, not vertically).
 - The title is centered on the page.
