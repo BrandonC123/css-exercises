@@ -22,15 +22,21 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 8px;
-  gap: 10px 10px;
+  padding: 15px;
+  gap: 15px;
 }
 
 .header {
+  display: flex;
   font-size: 20px;
   font-weight: 700;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
 
+.text {
+  padding-bottom: 15px;
+}
 /*
 - The blue icon is aligned to the left.
 - There is equal space on either side of the icon (the gaps between the 
@@ -66,7 +72,6 @@ in the top-right of the card.
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: none;
 }
 
 button {
