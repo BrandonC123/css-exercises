@@ -15,6 +15,7 @@ body {
   display: flex;
   align-items: center;
   padding: 8px;
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -63,7 +64,7 @@ a {
 
 .right-container {
   display: flex;
-  justify-content: flex-end;
+  gap: 16px;
 }
 
 ul {
