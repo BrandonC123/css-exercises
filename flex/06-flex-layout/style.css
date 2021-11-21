@@ -16,8 +16,15 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 500;
 }
 
+a {
+  color: rgb(19, 17, 17);
+  text-decoration: none;
+}
 ul {
   list-style: none;
   padding: 0px;
@@ -26,8 +33,9 @@ ul {
 .whole-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
+
 .content {
   display: flex;
   flex-direction: column;
