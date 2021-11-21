@@ -23,6 +23,11 @@ ul {
   padding: 0px;
 }
 
+.whole-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .content {
   display: flex;
   flex-direction: column;
@@ -41,7 +46,7 @@ ul {
 }
 
 .footer {
-  
+  background-color: #eeeeee;
 }
 
 input {
